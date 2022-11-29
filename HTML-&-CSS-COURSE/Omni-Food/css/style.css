@@ -39,6 +39,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap");
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 * {
   margin: 0;
@@ -132,12 +133,16 @@ body {
 .main-nav-link:hover {
   color: #cf711f;
 }
-.nav-cta:link,
-.nav-cta:visited {
+.main-nav-link.nav-cta:link,
+.main-nav-link.nav-cta:visited {
   border-radius: 9px;
   color: #fff;
   display: inline-block;
-  padding: 1.6rem 3.2rem;
+  padding: 1.2rem 2.4rem;
+  background-color: #e67e22;
+}
+.main-nav-link.nav-cta:hover,
+.main-nav-link.nav-cta:active {
   background-color: #cf711f;
 }
 
